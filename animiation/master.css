@@ -1,10 +1,7 @@
-.eslam {
-    margin-top:90px;
-}
-.main {
-    width: 200px;
+.e {
     background-color: red;
-    margin-left:auto;
-    margin-right:auto
-    
+    margin: 10px;
+}
+.a {
+    background-color: blue;
 }
