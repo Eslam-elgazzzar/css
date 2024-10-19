@@ -1,7 +1,22 @@
-.e {
-    background-color: red;
-    margin: 10px;
+* {
+    box-sizing: border-box;
 }
-.a {
-    background-color: blue;
+div img {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    width: 100%;
+}
+div {
+    overflow: hidden;
+    width: 300px;
+}
+div:hover img {
+    transform: scale(1.3,1.3) rotate(10deg);
+    -webkit-transform: scale(1.3,1.3) rotate(10deg);
+    -moz-transform: scale(1.3,1.3) rotate(10deg);
+    -ms-transform: scale(1.3,1.3) rotate(10deg);
+    -o-transform: scale(1.3,1.3) rotate(10deg);
 }
